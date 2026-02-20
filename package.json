@@ -1,0 +1,28 @@
+{
+  "name": "mission-control",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "push-status": "tsx scripts/push-status.ts"
+  },
+  "dependencies": {
+    "@upstash/redis": "^1.36.2",
+    "next": "14.2.21",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "18.3.28",
+    "@types/react-dom": "^18",
+    "dotenv": "^17.3.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.21",
+    "tsx": "^4.21.0",
+    "typescript": "^5"
+  }
+}
