@@ -1,3 +1,5 @@
+import './globals.css'
+
 export const metadata = {
   title: 'Mission Control',
   description: 'SpinTheBloc Mission Control',
