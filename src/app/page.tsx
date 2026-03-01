@@ -125,7 +125,7 @@ export default function Dashboard() {
       <header className="header">
         <div className="logo">
           <div className="logo-icon">⚡</div>
-          <div className="logo-text">SpinTheBloc<span>Mission Control</span></div>
+          <div className="logo-text">SpinTheBloc<span>The Bloc</span></div>
         </div>
         <div className="header-right">
           <div className="status-live">

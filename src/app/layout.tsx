@@ -1,8 +1,8 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'Mission Control',
-  description: 'SpinTheBloc Mission Control',
+  title: 'The Bloc',
+  description: 'SpinTheBloc HQ',
 }
 
 export default function RootLayout({

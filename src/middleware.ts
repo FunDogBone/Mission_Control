@@ -16,7 +16,7 @@ export function middleware(request: NextRequest) {
     return new NextResponse('Authentication required', {
       status: 401,
       headers: {
-        'WWW-Authenticate': 'Basic realm="Mission Control"',
+        'WWW-Authenticate': 'Basic realm="The Bloc"',
       },
     });
   }
@@ -29,7 +29,7 @@ export function middleware(request: NextRequest) {
     return new NextResponse('Invalid credentials', {
       status: 401,
       headers: {
-        'WWW-Authenticate': 'Basic realm="Mission Control"',
+        'WWW-Authenticate': 'Basic realm="The Bloc"',
       },
     });
   }
