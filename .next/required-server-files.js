@@ -100,7 +100,7 @@ self.__SERVER_FILES_MANIFEST={
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "/Users/vectorgold/Workspace/Mission_Control",
+    "outputFileTracingRoot": "/Users/Shared/Workspace/OpenClaw_Playground/Workspace/mission-control",
     "cacheComponents": false,
     "cacheLife": {
       "default": {
@@ -293,11 +293,11 @@ self.__SERVER_FILES_MANIFEST={
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.js",
     "turbopack": {
-      "root": "/Users/vectorgold/Workspace/Mission_Control"
+      "root": "/Users/Shared/Workspace/OpenClaw_Playground/Workspace/mission-control"
     },
     "distDirRoot": ".next"
   },
-  "appDir": "/Users/vectorgold/Workspace/Mission_Control",
+  "appDir": "/Users/Shared/Workspace/OpenClaw_Playground/Workspace/mission-control",
   "relativeAppDir": "",
   "files": [
     ".next/routes-manifest.json",

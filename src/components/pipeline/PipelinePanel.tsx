@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { usePipeline } from '@/hooks/usePipeline';
 import { PipelineStages } from './PipelineStages';
 import { RecentProspectsTable } from './RecentProspectsTable';
-import { Stage } from '@/types/pipeline';
+import { Stage, Prospect } from '@/types/pipeline';
 
 interface PipelinePanelProps {
   initialExpanded?: boolean;
@@ -35,9 +35,9 @@ export function PipelinePanel({ initialExpanded = false }: PipelinePanelProps) {
 
   if (!data) return null;
 
-  const totalLeads = Object.values(data.stageCounts).reduce((a, b) => a + b, 0);
+  const totalLeads = Object.values(data.stageCounts).reduce((a: number, b) => a + (b as number), 0) as number;
   const filteredProspects = filterStage
-    ? data.prospects.filter(p => p.stage === filterStage)
+    ? data.prospects.filter((p: Prospect) => p.stage === filterStage)
     : data.prospects;
 
   const handleStageClick = (stage: Stage) => {

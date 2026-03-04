@@ -41,8 +41,8 @@ export function RecentProspectsTable({
         <ProspectRow
           key={prospect.id}
           prospect={prospect}
-          onStageChange={(newStage) => onStageChange(prospect.id, newStage)}
-          onAddNote={(note) => onAddNote(prospect.id, note)}
+          onStageChange={(newStage) => onStageChange(String(prospect.id), newStage)}
+          onAddNote={(note) => onAddNote(String(prospect.id), note)}
         />
       ))}
     </div>

@@ -22,10 +22,10 @@ export function StageSummary({ stage, count, isActive = false, onClick }: StageS
         ${onClick ? 'cursor-pointer' : 'cursor-default'}
       `}
     >
-      <div className={`text-xs uppercase tracking-wider ${config.color} opacity-80`}>
+      <div className={`text-xs uppercase tracking-wider ${config.textColor} opacity-80`}>
         {config.label}
       </div>
-      <div className={`text-2xl font-bold ${config.color}`}>
+      <div className={`text-2xl font-bold ${config.textColor}`}>
         {count}
       </div>
     </button>

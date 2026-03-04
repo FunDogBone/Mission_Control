@@ -10,6 +10,7 @@
     "push-status": "tsx scripts/push-status.ts"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.98.0",
     "@upstash/redis": "^1.36.2",
     "next": "^16.1.6",
     "react": "^18",

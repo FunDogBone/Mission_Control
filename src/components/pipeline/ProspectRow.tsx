@@ -46,7 +46,7 @@ export function ProspectRow({ prospect, onStageChange, onAddNote }: ProspectRowP
           {prospect.nextAction && (
             <span className="text-gray-400 text-sm hidden md:inline">{prospect.nextAction}</span>
           )}
-          <span className={`px-2 py-1 ${stageConfig.bgColor} ${stageConfig.color} text-xs rounded border ${stageConfig.borderColor}`}>
+          <span className={`px-2 py-1 ${stageConfig.bgColor} ${stageConfig.textColor} text-xs rounded border ${stageConfig.borderColor}`}>
             {stageConfig.label}
           </span>
           
